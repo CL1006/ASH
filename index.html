@@ -1,3 +1,29 @@
-<script>
-  alert("hola");
-</script>
+<html>
+    <head>
+        //Etiqueta meta charset UTF-8
+<meta charset="UTF-8">
+<style>
+    body {
+  animation: blinker 1s linear infinite;
+  }
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+  }
+  
+</style>
+    </head>
+ <body>
+    <script>
+        var nombre;
+        var apellido;
+        var usuario;
+        nombre=prompt("¿Cuál es tu nombre?");
+        apellido=prompt("¿Cuál es tu apellido?");
+        usuario=nombre+apellido 
+        document.write ("Bienvenido", usuario)
+
+    </script>
+ </body>   
+</html>
